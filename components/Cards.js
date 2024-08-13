@@ -1,8 +1,8 @@
-export default function Hero() {
+export default function Cards() {
     return (
 
-        <section style={{
-            height:"100vh"
+        <section id="features" style={{
+            // height:"100vh"
         }}>
 
         <div class="container mt-24 px-5 pb-24 mx-auto relative">

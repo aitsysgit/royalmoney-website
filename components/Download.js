@@ -1,15 +1,15 @@
 export default function Download() {
     return (
-<section class="text-gray-600 body-font overflow-hidden h-[100vh] mb-[20px]" style={{
+<section id="download" class="text-gray-600 body-font overflow-hidden h-[100vh] mb-[20px]" style={{
             backgroundImage: "linear-gradient(315deg, #B2E300 40%, #1D1D1D 0%)"
 }}>
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative downloadText">
+    <div class="lg:flex-grow rightInfo md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Download Royal Money Today</h1>
-      <div class="h-1 w-20 bg-primary mx-auto rounded ml-0 mb-8"></div>
+      <div class="h-1 w-20 bg-primary mx-auto rounded ml-0 mb-8 diVeder"></div>
       
       <p class="mb-8 w-1/2 text-white leading-loose text-justify">Experience the future of money transfers with our state-of-the-art security protocols and lightning-fast transaction speeds. Whether sending money to loved ones or paying bills, your financial data is always safe with us.</p>
-      <div class="flex lg:flex-row md:flex-col">
+      <div class="flex lg:flex-row md:flex-col buttonsDiv">
       <button class="bg-[#B2E300] border border-white inline-flex py-3 px-7 rounded-full items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-transparent  focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="w-6 h-6" viewBox="0 0 512 512">
             <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
@@ -35,7 +35,7 @@ export default function Download() {
     right: '-24%',
     height: "50rem",
     width: "66rem"}}>
-    <img class=" object-cover object-center rounded-lg md:mt-0 mt-12 absolute h-full top-0" src="\images\Royal Money (mobile pics)\Template-6.png" alt="step"/>
+    <img class=" object-cover lg:block hidden object-center rounded-lg md:mt-0 mt-12 absolute h-full top-0" src="\images\Royal Money (mobile pics)\Template-6.png" alt="step"/>
     </div>
   </div>
 </section>

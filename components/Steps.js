@@ -87,7 +87,7 @@ export default function Steps() {
           </div>
         </div>
       </div>
-      <img class=" h-[35rem] object-cover object-center rounded-lg md:mt-0 mt-12" src="\images\Royal Money (mobile pics)\Double-phone.png" alt="step"/>
+      <img class=" h-[35rem] doubleMobile object-cover object-center rounded-lg md:mt-0 mt-12" src="\images\Royal Money (mobile pics)\Double-phone.png" alt="step"/>
     </div>
   </div>
 </section>
