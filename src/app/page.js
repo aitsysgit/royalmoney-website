@@ -6,6 +6,7 @@ import Steps from '../../components/Steps';
 import Screenshots from '../../components/Screenshots';
 import Download from '../../components/Download';
 import Footer from '../../components/Footer';
+import Contact from '../../components/Contact';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Steps/>
       <Screenshots/>
       <Download/>
+      <Contact/>
       <Footer/>
       </main>
     </>

@@ -92,6 +92,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 body {
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(
@@ -110,6 +111,29 @@ a {
 }
 .screenImg{
   width: 200px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -206,36 +230,28 @@ a {
       height: 20rem !important;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
+  #hero{
+    height: 50vh !important;
+  }
   .phoneCase {
       top: 62% !important;
   }
   #phoneCase2 {
-    height: 11rem !important;
+    height: 23rem !important;
 }
+.twoMobile img {
+  height: 30rem !important;
 }
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  .swiperHidden{
+    display: none !important;
+  }
+  .swiper-backface-hidden .swiper-slide{
+    margin-right: 70px !important;  
+  }
+  .downloadTextBottom{
+    width:100%
+  }
 }
 .asd{
   display: block;
@@ -243,3 +259,6 @@ a {
   height: 100%;
   object-fit: cover;
 }
+/* .case{
+
+} */

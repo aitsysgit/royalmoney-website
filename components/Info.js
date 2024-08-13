@@ -15,7 +15,7 @@ export default function Info() {
         <h1 class="mainTitle font-semibold title-font mb-4 text-gray-900">Trusted Worldwide</h1>
         <div class="h-1 w-20 bg-primary mx-auto rounded ml-0 mb-8"></div>
 
-        <div class="leading-loose text-justify">Send and receive money with just a few taps. Our user-friendly interface makes managing your finances easier than ever. No hidden fees, no complications—just simple, straightforward transactions.</div>
+        <div class="leading-loose sm:text-justify text-left">Send and receive money with just a few taps. Our user-friendly interface makes managing your finances easier than ever. No hidden fees, no complications—just simple, straightforward transactions.</div>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-semibold text-4xl text-primary" style={{textShadow: "0 0 1px #B2E300"}}>100</h2>

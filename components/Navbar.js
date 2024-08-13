@@ -75,6 +75,11 @@ export default function Navbar() {
             </a>
               </li>
               <li>
+              <a className="mr-5 hover:text-gray-900 cursor-pointer text-gray-900 md:text-white" href="#contact">
+              contact us
+            </a>
+              </li>
+              <li>
               <a
             href="#download"
             className="inline-flex items-center bg-gray-100 border-0 py-3 px-6 focus:outline-none hover:bg-gray-200 rounded-[30px] text-base mt-4 md:mt-0 text-gray-600"
