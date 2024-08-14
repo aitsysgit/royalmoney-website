@@ -54,8 +54,8 @@ export default function Screenshots() {
         <Swiper
           spaceBetween={90}
           loop={true}
-          // autoplay={{ delay: 99000, disableOnInteraction: false }}
-          // modules={[Autoplay]}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          modules={[Autoplay]}
           className="mySwiper relative hidden sm:flex "
           breakpoints={{
             // when window width is >= 1024px (PC and laptop)
